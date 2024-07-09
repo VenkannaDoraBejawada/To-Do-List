@@ -1,0 +1,99 @@
+body{
+    background-color:lightgreen;
+}
+#todoBody{
+    width: 60%;
+    height: 100vh;
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: start;
+}
+#addTask{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    /* background-color: cadetblue; */
+}
+input{
+    width: 50%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 30px;
+    text-align: center;
+    color: darkgreen;
+    background-color: silver;
+}
+button{
+    width: 80px;
+    height: 45px;
+    margin: 0px 5px;
+    border-radius: 10px;
+    background-color: orangered;
+    border: none;
+    outline: none;
+}
+#tasksList{
+    width: 98%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+}
+#listContainer{
+    width: 80%;
+    height: auto;
+    list-style: none;
+}
+li{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+#Complete{
+    width: 80px;
+    height: 30px;
+    background-color: green;
+    /* text-decoration: line-through; */
+}
+#inComplete{
+    width: 80px;
+    height: 30px;
+    background-color: brown;
+    /* text-decoration: line-through; */
+}
+#Delete{
+    width: 80px;
+    height: 30px;
+    background-color: red;
+}
+li div{
+    width: 500px;
+    height: auto;
+    font-size: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+    color: black;
+    text-align: start;
+}
+li div.checked{
+    color: green;
+    text-decoration: line-through;
+    font-size: 30px;
+    text-align: start;
+}
